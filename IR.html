@@ -1,84 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-
-
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<title>Industrial Redevelopment</title>
 		
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 		<link rel="stylesheet" href="stylesheets/slate.css">
-		<link rel="stylesheet" href="scrolling-nav.css">
-	    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
 	</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Industrial Redevelopment</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="nav-collapse collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                    	<a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                       <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>		
 	
-	<body>
-
-		<nav class="navbar navbar-default navbar-fixed-top">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">Industrial Redevelpment</a>
-		    </div>
-		    <div>
-		      <ul class="nav navbar-nav pull-right">
-		        <li class="active"><a href="#">Home</a></li>
-		        <li><a href="#">About Us</a></li> 
-		        <li><a href="#">Projects</a></li>
-		        <li><a href="#">Contact</a></li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
-
-
 	  	<div class="jumbotron">
 	  		<div class="container">
 	  			<h1>Industrial Redevelopment</h1>
 	  			<a class="scroll-link down-arrow" href="#about">
-      <img alt="Down arrow thin" class="down-arrow-icon" src="images/down-arrow-thin-29fbadafb8bb5fc534df8e60dc5070a9.png">
-    </a>
+			      <img alt="Down arrow thin" class="down-arrow-icon" src="images/down-arrow-thin-29fbadafb8bb5fc534df8e60dc5070a9.png">
+			    </a>
 	  		</div>
-	  	</div>	
+	  	</div>
+			
+			<div class="container" id="services">
+  	<h3> Industrial Redevelopment formed in 2013, focused on the responsible 
+		  		redevelopment of industrial and office products. Services include:</h3>
+	  	<div class="row services">
+	  		<div class="col-sm-4">
+	  			<div class="well service" id="ar">
+	  				<h2>Adaptation and Reuse</h2>
+	  				<div id="ar-description" style="display:none;">
+		  				<p>Specializing in utilizing exiting facilities which often have obsolescent features and through modifications modernizing them to fit today's manufacturing, logistic and general industrial needs.  This may involve demolishing parts of facilities, modifying loading, yard areas, utility upgrades among other retrofits.  The end result is the ability to use existing assets avoiding costly demolition and new development which can offer a cost advantage.  This enables the projects to lease or sale much quicker and allows today's industrial users to be more competitive by lowering their costs.</p>
+	  				</div>
+	  				<div class="img" id="ar-img">
+	  					<img src="images/Reuse.png">
+	  				</div>
+	  			</div>
+	  		</div>
+		
+				<div class="col-sm-4">
+	  			<div class="well service" id="br">
+	  				<h2>Brownfield Remediation</h2>
+	  				<div id="br-description" style="display:none;">
+		  				<p>This involves solving environmental issues to get existing facilities back to use.  There are many benefits to this type of redevelopment on all levels.  It will clean up and environmental condition that many developers, lenders and users will not touch until the site is clean and no public health risk is present.  It puts back into use an existing facility decreasing unnecessary green field development.  Finally, it can offer the end  user a cost advantage occupying a redeveloped site.  The remediation of the site often involves a multi-level approach which will include extraction, vapor barriers, administrative controls among other tools.</p>
+	  				</div>
+	  				<div class="img" id="br-img">
+	  					<img src="images/Brownfield.png">
+	  				</div>
+	  			</div>
+	  		</div>
 
-		<div class="container">
-			<h3> Industrial Redevelopment formed in 2013, focused on the 
-	  		development of industrial and office products. Services include:</h3>
+	  		<div class="col-sm-4">
+		  		<div class="well service" id="ap">
+		  			<h2>Asset Repositioning</h2>
+		  			<div id="ap-description" style="display:none;">
+		  				<p> Often with the adaptive reuse of older facilities due to their locations and changes in the surroundings the uses for the facility change which requires dealing with entitlement issues.  This can be triggered upon purchase or as the project matures.  This can also involve another area of expertise involving historic renovation and dealing with changing uses in a historically significant structure.</p>
+	  				</div>
+		  			<div class="img" id="ap-img">
+		  				<img src="images/Reposition.png">
+		  			</div>
+		  		</div>
+		  	</div>
+	  	</div>
 		</div>
 
-	  	<div class="container">
-		  	<div class="services">
-		  		<div class="row">
-			  		<div class="col-md-4">
-			  			<div class="well description">
-			  				<h2>Adaptation and Reuse</h2>
-			  				<div class="img">
-			  					<img src="images/Reuse.png" style="width:100%;height:100%;">
-			  				</div>
-			  				
+		<div class="container-fluid building">
 
-			  			</div>
-			  		</div>
+			
+		</div>
+		
+		
+		<div class="container" id="about">
+			<div class="row about">
+				<div class="col-sm-9">
+					<h2>Bruce Haas- Managing Partner</h2>
+					<p>Bruce Haas has over 30 years of industrial real estate experience. Prior to forming IR, Bruce was an Executive Vice President at Industrial Realty Group, LLC ("IRG") where he focused on the acquisitions of new properties, new business development and managing marketing & leasing coordination for the IRG properties. Bruce started with IRG in 1999 when the portfolio was approximately 20 million square feet and was involved in approximately 40 acquisitions totaling over 60 million square feet over 12 years.
+					</p>
+					<p>Clients include Intel, Weyerhaeuser, GE, Morgan Stanley, Angelo Gordon, and PCCP Capital.  Apart from acquisitions, Bruce was also a part of the management team that purchased and redeveloped the former McClellan Air Force Base into McClellan Park <a href="http://www.McClellanpark.com">(www.McClellanpark.com)</a>. Many of the projects featured on IRG's website <a href="http://www.IndustrialRealtyGroup.com">(www.IndustrialRealtyGroup.com)</a> were projects acquired and redeveloped by Bruce.
+					</p>
+					<p>In March of 2013 Bruce started Industrial Redevelopment.  Since leaving IRG in March of 2013 Industrial Redevelopment has bought three projects, partnering with Fortress Investments and LDK Associates on two of the projects.  Additionally Bruce has continued to consult with IRG and help with the existing portfolio which he is one of the largest owners.
+					</p>
+					<p>Prior to Mr. Haas' tenure with IRG he had an 18 year career at CB Richard Ellis beginning in the training program in 1981 and working his way up to Senior Vice President where he specialized in industrial properties. Additionally, Mr. Haas assisted in the development of several R&D/technology parks and became a regional expert of electronic, pharmaceutical, biotech and R&D facilities. Mr. Haas was also a partner in the Special Properties Group at CB Richard Ellis assisting with the brokerage of major manufacturing facilities across the nation Mr. Haas left CBRE in 1999.
+					</p>
+				</div>	
+				<div class="col-sm-3">
+					<img class="profile" src="images/Bruce.jpg">
+				</div>
+			</div>
+<!-- 			<div class="sub-header">
+				About
+			</div> -->
+		</div>
+
+		<div class="container-fluid shaded" id="projects">
+			<div class="container">
+				<a href="Intel.html">
+				<div class="row projects">
+					<div class="col-md-3">
+							<img class="project-pic" src="images/Intel.png">
+					</div>
+					<div class="col-md-9">
+					
+						<h2>Intel, DuPont California</h2>
+						
+						<p>Industrial Redevelopment with partner Fortress Investments acquired the former Intel campus in DuPont Washington.  The project includes two 320,000 square foot four story state of the art office buildings and a 370,000 square foot warehouse manufacturing facility.  Bruce negotiated a partial lease back of some critical space in the complex with Intel Corp as part of the purchase and is currently redeveloping the remaining space on the campus.
+						</p>
+					</div>
+				</div>
+				</a>
+
+				<div class="row projects">
+					<a href="Banning.html">
+						<div class="col-md-6 project-desc">
+							
+							<h2>Banning</h2>
+							
+							<p>A property located in Banning, CA totaling 125,000 square feet.  The property was originally a manufacturing facility which produced connectors for the aerospace industry.  As with many older manufacturing facilities it had some functional obsolesces and an environmental condition.   IR purchase the property on an all cash basis and invested significant dollars getting a clean phase 1, and renovating the facilities.  The property is now fully leased creating jobs for the city, repurposing an old facility and creating cash flow for Industrial Redevelopment.  This is an example of adaptive reuse and brownfield redevelopment.
+							</p>
+							
+						</div>
+					</a>
+					<a href="Richmond.html">
+					<div class="col-md-6 project-desc">
+						
+							<h2>Richmond Steel Manufacturing Facility</h2>
+						
+						<p>Bruce has teamed up with LDK associates to redevelop the former Steelscape facility in Richmond California.  What started as a potential redevelopment for a previous client turned into to complete demo and rebuild due to environmental conditions.  The site is a total of 42 acres located off I-80 in Richmond, CA.  The purchase price included a hold back for demo and environmental.  The project is now in the final stages of the clean-up work and IR with LDK will develop an approximate 700,000 sq.ft. state of the art distribution facility.  This site had sat empty for over 6 years until being taken on as a brownfield redevelopment project, going from an eyesore to bringing in new industry, jobs and eliminating an environmental condition.
+						</p>
+						
+					</div>
+					</a>
+				</div>
 				
-					<div class="col-md-4 ">
-			  			<div class="well description">
-			  				<h2>Brownfield Remediation</h2>
-			  				<div class="img">
-			  					<img src="images/Brownfield.png" style="width:100%;height:100%;">
-			  				</div>
-			  			</div>
-			  		</div>
+			</div>
+		</div>
 
-			  		<div class="col-md-4">
-				  		<div class="well description">
-				  			<h2>Asset Repositioning</h2>
-				  			<div class="img">
-				  				<img src="images/Reposition.png" style="width:100%;height:100%;">
-				  			</div>
-				  		</div>
-				  	</div>
+		<div class="container" id="contact">
+			<div class="row">
+				<div class="col-sm-2 contact">
+					<img src="images/Home.png">
+				</div>
+				<div class="col-sm-4 contact">
+					<br> <br> <br>
+					<p>505 N. Tustin Ave, Suite 188<br>Santa Ana, CA 92705</p>
+					<br>
+				</div>
+				<div class="col-sm-4 contact right">
+					<br> <br> <br>
+					<p>Bruce@IndustrialRedevelopment.com</p>
+					<br>
+				</div>
+				<div class="col-sm-2 contact">
+					<img src="images/Email.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2 contact">
+					<img src="images/Cell.png">
+				</div>
+				<div class="col-sm-4 contact">
+					<br> <br> <br>
+					<p>310.678.1774</p>
+					<br>
+				</div>
+				<div class="col-sm-4 contact right">
+					<br> <br> <br>
+					<p>714.508.7371</p>
+					<br>
+				</div>
+			
+				<div class="col-sm-2 contact">
+					<img src="images/Phone.png">
 				</div>
 			</div>
 		</div>
-	  	
-	  </div>
+
+
+
+		<!-- <div class="container" id="contact">
+			<div class="col-sm-3">
+				<div class="contact">
+					<img src="images/Home.png">
+					<p>505 N. Tustin Ave, Suite 188</p>
+					<p>Santa Ana, CA 92705</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="contact">
+					<img src="images/Email.png">
+					<p>Bruce@</p><p>Industrial</p><p>Redevelopment</p><p>.com</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="contact">
+					<img src="images/Cell.png">
+					<p>310-</p><p>678-</p><p>1774</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="contact">
+					<img src="images/Phone.png">
+					<p>715-</p><p>508-</p><p>7371</p>
+
+				</div>
+			</div>
+	  </div> -->
+	  <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script>
+		  $('#br').hover(function() {
+		      $('#br-description').slideToggle(250 ,function(){
+		      }),
+		      $('#br-img').slideToggle(250 , function(){
+		      });
+		  });
+		  $('#ar').hover(function() {
+		      $('#ar-description').slideToggle(250 ,function(){
+		      }),
+		      $('#ar-img').slideToggle(250 , function(){
+		      });
+		  });
+		  $('#ap').hover(function() {
+		      $('#ap-description').slideToggle(250 ,function(){
+		      }),
+		      $('#ap-img').slideToggle(250 , function(){
+		      });
+		  });
+		</script>
 	</body>
 </html>
