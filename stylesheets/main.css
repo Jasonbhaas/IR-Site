@@ -6,7 +6,7 @@ header {
 }
 
 .jumbotron {
-  background-image:url('http://4.bp.blogspot.com/-QxOBUinV_7o/UrDIPyySb3I/AAAAAAAAM5w/-rf_kptaxcQ/s1600/Seamless_White_Brick_Texture.jpg');
+  background-image: url('../images/Seamless-White.jpg');
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
